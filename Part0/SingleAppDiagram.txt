@@ -1,0 +1,9 @@
+
+Client->Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/spa
+Server->Client: HTML code (Spa)
+Client->Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/main.css
+Server->Client: CSS code (Main.css)
+Client->Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server->Client: JS code (Spa.js)
+Client->Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/data.json
+Server->Client: Data json code(Data.json)
