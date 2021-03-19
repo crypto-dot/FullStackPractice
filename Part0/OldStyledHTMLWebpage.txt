@@ -1,0 +1,12 @@
+
+Client->Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/notes
+Server -> Client: HTML code
+Client -> Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/main.css
+Server -> Client: CSS code (Main.css)
+Client -> Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/main.js
+Server -> Client: JS code (Main.JS)
+note left of Client:JS code executes
+Client -> Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/data.json
+Server -> Client: JSON code (data.JSON)
+Server -> Client: Updated version of Notes
+note left of Client: Browser updates and rerenders the page using the event handler
