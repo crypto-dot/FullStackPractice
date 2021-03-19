@@ -1,0 +1,13 @@
+
+Client->Server: HTTP GET:https://studies.cs.helsinki.fi/exampleapp/spa
+Server -> Client: HTML code
+Client->Server: HTTP GET: https://studies.cs.helsinki.fi/exampleapp/main.css
+Server -> Client: CSS code (Main.css)
+Client -> Server: HTTP GET: https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server -> Client: JS code (spa.js)
+Client -> Server: HTTP GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+Server -> Client: JSON code (data.json)
+note left of Client: Event handler detects the event and sends the content 
+note left of Client: in the form of JSON code to the server and rerenders the page for the client
+note left of Client: (all this is done by the Javascript code received by the client)
+Client -> Server: HTTP POST:https://studies.cs.helsinki.fi/exampleapp/new_note_spa
